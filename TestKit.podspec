@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1'
   s.summary          = 'A short description of TestKit.'
 
 # This description is used to generate tags and improve search results.
@@ -28,9 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/18638597928/TestKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'TestKit/Classes/**/*'
+  s.swift_versions = ["4.0", "5.0"]
   
   # s.resource_bundles = {
   #   'TestKit' => ['TestKit/Assets/*.png']
